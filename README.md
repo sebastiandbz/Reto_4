@@ -4,7 +4,7 @@
 
 ### 1. Dado un número entero, determinar si ese número corresponde al código ASCII de una vocal minúscula.
 
-```
+```python
 n : int
 n = int(input("Ingrese un número entero: "))
 
@@ -16,7 +16,7 @@ else:
 
 ### 2. Dada una cadena de longitud 1, determine si el código ASCII de primera letra de la cadena es par o no.
 
-```
+```python
 cadena: str
 cadena = input("Ingrese una cadena de longitud 1: ")
 
@@ -30,7 +30,7 @@ else:
 
 ### 3.Dado un carácter, construya un programa en Python para determinar si el carácter es un dígito o no.
 
-```
+```python
 n = (input("Ingrese un caracter: "))
 
 if n == '1' or n == '2' or n == '3' or n == '4' or n == '5' or n == '6' or n == '7' or n == '8' or n == '9' or n == '0':
@@ -41,8 +41,7 @@ else:
 
 ### 4. Realice un programa que lea dos números reales y determine si el primero es múltiplo del segundo.
 
-```
-
+```python 
 numero1: float
 numero1 = float(input("Ingrese el primer número: "))
 numero2: float
@@ -62,7 +61,7 @@ Negativo: "El número x es negativo"
 
 Cero (0): "El número x es el neutro para la suma"
 
-```
+```python 
 x: float
 x = float(input("Ingrese un número real: "))
 
@@ -76,7 +75,7 @@ else:
 
 ### 6. Dado el centro y el radio de un círculo, determinar si un punto de R2 pertenece o no al interior del círculo.
 
-```
+```python 
 x_centro: float = float(input("Ingrese x del centro del círculo: "))
 y_centro: float = float(input("Ingrese y del centro del círculo: "))
 radio: float = float(input("Ingrese el radio del círculo: "))
@@ -94,7 +93,7 @@ else:
 
 ### 7. Dadas tres longitudes positivas, determinar si con esas longitudes se puede construir un triángulo.
 
-```
+```python 
 a: float = float(input("Ingrese la primera longitud: "))
 b: float = float(input("Ingrese la segunda longitud: "))
 c: float = float(input("Ingrese la tercera longitud: "))
@@ -107,7 +106,7 @@ else:
 
 ### 8. Escriba un programa que reciba el nombre en minúsculas de un país de America y retorne la ciudad capital, si el país no pertenece al continente debe arrojar país no identificado (Utilice match-case).
 
-```
+```python 
 pais: str = input("Ingrese el nombre del país: ")
 
 match pais:
